@@ -40,10 +40,10 @@ Explanations
 id
 ~~
 The ID of an OntologyClass element MUST take the form of a :ref:`rstcurie` format.
-In order that the class is resolvable, it MUST reference the namespace prefix of a :ref:`rstresource` named in the
+In order for the class to be resolvable, it MUST reference the namespace prefix of a :ref:`rstresource` named in the
 :ref:`rstmetadata`.
 
 label
 ~~~~~
-The the human-readable label for the concept. This MUST match the ID in the ontology referenced by the namespace prefix
+The human-readable label for the concept. This MUST match the ID in the ontology referenced by the namespace prefix
 in a :ref:`rstresource` named in the :ref:`rstmetadata`.
